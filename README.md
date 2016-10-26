@@ -19,3 +19,4 @@ A modified language model was defined in the webModel directory using an online 
 an existing english acoustic model. The vocabulary of our model can be seen in the `0460.vocab`file.
 
 A sequence of commands is sent through the serial port to a microcontroller for controlling the servos. Code will be updated soon.
+

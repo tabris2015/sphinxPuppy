@@ -1,22 +1,8 @@
 
-#commands = [
-#		 'STAY',
-		 #'COME HERE',
-		 #'COME',
-		 #'DOWN',
-		 #'BAD BOY',
-		 #'HIGH FIVE',
-		 #'GET OUT',
-		 #'GOOD BOY',
-		 #'HELLO',
-		 #'PUPPY',
-		 #'SIT',
-		 #'UP'
-#]
 commands = [
-		 'KUPI',
-		 'AYNACHA',
-		 'ALAXA',
+		 'STAY',
+		 'COME HERE',
+		 'COME',
 		 'DOWN',
 		 'BAD BOY',
 		 'HIGH FIVE',
@@ -27,7 +13,6 @@ commands = [
 		 'SIT',
 		 'UP'
 ]
-
 values = ['a','s','d','f','g','h','j','k','l','z','x','c']
 
 def getCommand(phrase, commands=commands):

@@ -1,0 +1,84 @@
+Language model created by QuickLM on Fri Sep 23 12:12:39 EDT 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 12 sentences and 17 words
+
+\data\
+ngram 1=17
+ngram 2=27
+ngram 3=17
+
+\1-grams:
+-0.8346 </s> -0.3010
+-0.8346 <s> -0.2323
+-1.9138 BAD -0.2903
+-1.6128 BOY -0.2323
+-1.6128 COME -0.2261
+-1.9138 DOWN -0.2323
+-1.9138 FIVE -0.2323
+-1.9138 GET -0.2957
+-1.9138 GOOD -0.2903
+-1.9138 HELLO -0.2323
+-1.9138 HERE -0.2323
+-1.9138 HIGH -0.2957
+-1.9138 OUT -0.2323
+-1.9138 PUPPY -0.2323
+-1.9138 SIT -0.2323
+-1.9138 STAY -0.2323
+-1.9138 UP -0.2323
+
+\2-grams:
+-1.3802 <s> BAD 0.0000
+-1.0792 <s> COME 0.0000
+-1.3802 <s> DOWN 0.0000
+-1.3802 <s> GET 0.0000
+-1.3802 <s> GOOD 0.0000
+-1.3802 <s> HELLO 0.0000
+-1.3802 <s> HIGH 0.0000
+-1.3802 <s> PUPPY 0.0000
+-1.3802 <s> SIT 0.0000
+-1.3802 <s> STAY 0.0000
+-1.3802 <s> UP 0.0000
+-0.3010 BAD BOY 0.0000
+-0.3010 BOY </s> -0.3010
+-0.6021 COME </s> -0.3010
+-0.6021 COME HERE 0.0000
+-0.3010 DOWN </s> -0.3010
+-0.3010 FIVE </s> -0.3010
+-0.3010 GET OUT 0.0000
+-0.3010 GOOD BOY 0.0000
+-0.3010 HELLO </s> -0.3010
+-0.3010 HERE </s> -0.3010
+-0.3010 HIGH FIVE 0.0000
+-0.3010 OUT </s> -0.3010
+-0.3010 PUPPY </s> -0.3010
+-0.3010 SIT </s> -0.3010
+-0.3010 STAY </s> -0.3010
+-0.3010 UP </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BAD BOY
+-0.6021 <s> COME </s>
+-0.6021 <s> COME HERE
+-0.3010 <s> DOWN </s>
+-0.3010 <s> GET OUT
+-0.3010 <s> GOOD BOY
+-0.3010 <s> HELLO </s>
+-0.3010 <s> HIGH FIVE
+-0.3010 <s> PUPPY </s>
+-0.3010 <s> SIT </s>
+-0.3010 <s> STAY </s>
+-0.3010 <s> UP </s>
+-0.3010 BAD BOY </s>
+-0.3010 COME HERE </s>
+-0.3010 GET OUT </s>
+-0.3010 GOOD BOY </s>
+-0.3010 HIGH FIVE </s>
+
+\end\
